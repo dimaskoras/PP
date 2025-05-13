@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робобол - Группа проектов Робостанции</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="sticky-top">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#main">
+                        <div class="logo-text">Робобол</div>
+                        <div class="logo-subtext">Группа проектов Робостанции</div>
+                    </a>
+                </div>
+                
+                <nav class="main-nav">
+                    <a href="#main" class="nav-link active">Главная</a>
+                    <a href="#about" class="nav-link">О проекте</a>
+                    <a href="#machine" class="nav-link">Игровая машинка</a>
+                    <a href="#field" class="nav-link">Игровое поле</a>
+                    <a href="#gallery" class="nav-link">Галерея</a>
+                </nav>
+                
+                <button class="mobile-menu-button" id="mobile-menu-toggle">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="container">
+            <div class="mobile-menu-header">
+                <div class="logo">
+                    <div class="logo-text">Робобол</div>
+                </div>
+                <button class="mobile-menu-close" id="mobile-menu-close">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav">
+                <a href="#main" class="nav-link">Главная</a>
+                <a href="#about" class="nav-link">О проекте</a>
+                <a href="#machine" class="nav-link">Игровая машинка</a>
+                <a href="#field" class="nav-link">Игровое поле</a>
+                <a href="#gallery" class="nav-link">Галерея</a>
+            </nav>
+        </div>
+    </div>
+
+<!-- Главная секция (Hero) -->
+<section id="main" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Проект <span class="accent">Робобол</span></h1>
+        <p>Инновационная физическая игра с элементами образования, развивающая навыки детей и позволяющая оторваться от гаджетов.</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Узнать больше</a>
+          <a href="#gallery" class="btn btn-outline">Галерея</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <video
+            src="assets/Ролик_Робобол.mp4"
+            controls
+            autoplay
+            muted
+            loop
+            playsinline
+            webkit-playsinline
+        >
+            Ваш браузер не поддерживает видео.
+        </video>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- О проекте -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>О проекте Робобол</h2>
+                <div class="separator"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Робобол — это инновационная физическая игра, способствующая отвлечению детей от виртуального мира и социальных сетей. Мы стремимся заинтересовать юных участников и побудить их к изучению таких дисциплин, как 3D-моделирование и 3D-печать.</p>
+                    <p>Суть игры: две команды по три человека управляют робомашинками с помощью джойстиков, стремясь забить мяч в ворота противника. Игроки преодолевают препятствия на поле и могут модернизировать свои машинки, обменивая полученные очки на детали или создавая их самостоятельно.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i data-feather="printer"></i>
+                            </div>
+                            <span>3D-печать</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i data-feather="box"></i>
+                            </div>
+                            <span>3D-моделирование</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/team.jpg" alt="Командная работа над проектом">
+                    <div class="image-badge">
+                        <i data-feather="settings"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <i data-feather="chevrons-up"></i>
+                    </div>
+                    <h3>3D-моделирование</h3>
+                    <p>Освоение навыков создания трехмерных моделей и модификаций для робот-машинок</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <i data-feather="users"></i>
+                    </div>
+                    <h3>Командная работа</h3>
+                    <p>Разделение на команды, совместная разработка стратегий и соревновательный дух</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <i data-feather="codesandbox"></i>
+                    </div>
+                    <h3>Два уровня сложности</h3>
+                    <p>Для детей 6-12 лет с простыми заданиями и для детей 12+ с более сложными препятствиями</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Игровая машинка -->
+    <section id="machine" class="machine section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Игровая машинка</h2>
+                <div class="separator"></div>
+                <p>Специально разработанная робототехническая платформа для игры Робобол</p>
+            </div>
+            
+            <div class="machine-content">
+                <div class="machine-specs">
+                    <h3>Технические характеристики</h3>
+                    
+                    <div class="machine-image">
+                        <img src="assets/image_1746125533350.png" alt="Эскиз игровой машинки">
+                        <div class="image-caption">Эскиз игровой машинки (02.10)</div>
+                    </div>
+                    
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <div class="spec-icon">
+                                <i data-feather="maximize-2"></i>
+                            </div>
+                            <div class="spec-text">
+                                <h4>Размеры</h4>
+                                <p>Длина: 170 мм<br>Ширина: 160 мм<br>Высота: 75 мм</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon">
+                                <i data-feather="cpu"></i>
+                            </div>
+                            <div class="spec-text">
+                                <h4>Управление</h4>
+                                <p>Пульты<br>Радиоканал</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon">
+                                <i data-feather="activity"></i>
+                            </div>
+                            <div class="spec-text">
+                                <h4>Характеристики</h4>
+                                <p>4 колеса с резиновыми шинами<br>Прочный корпус</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="machine-features">
+                    <div class="feature-box">
+                        <h3>Особенности конструкции</h3>
+                        <ul class="feature-list">
+                            <li><i data-feather="check-circle"></i> <span>Модульная конструкция для быстрой замены компонентов</span></li>
+                            <li><i data-feather="check-circle"></i> <span>Защитный бампер для предотвращения повреждений при столкновениях</span></li>
+                            <li><i data-feather="check-circle"></i> <span>Устойчивая платформа с низким центром тяжести</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h3>Преимущества</h3>
+                        <div class="advantages-grid">
+                            <div class="advantage">
+                                <div class="advantage-icon">
+                                    <i data-feather="tool"></i>
+                                </div>
+                                <p>Легкость сборки</p>
+                            </div>
+                            <div class="advantage">
+                                <div class="advantage-icon">
+                                    <i data-feather="shield"></i>
+                                </div>
+                                <p>Надежность</p>
+                            </div>
+                            <div class="advantage">
+                                <div class="advantage-icon">
+                                    <i data-feather="maximize"></i>
+                                </div>
+                                <p>Масштабируемость</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Игровое поле -->
+    <section id="field" class="field section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Игровое поле</h2>
+                <div class="separator"></div>
+                <p>Специально разработанная арена для проведения соревнований Робобол</p>
+            </div>
+            
+            <div class="field-content">
+                <div class="field-info">
+                    <div class="field-specs">
+                        <h3>Характеристики поля</h3>
+                        <div class="specs-numbers">
+                            <div class="spec-number">
+                                <div class="number">200</div>
+                                <div class="label">Ширина (см)</div>
+                            </div>
+                            <div class="spec-number">
+                                <div class="number">200</div>
+                                <div class="label">Длина (см)</div>
+                            </div>
+                            <div class="spec-number">
+                                <div class="number">35</div>
+                                <div class="label">Высота бортов (см)</div>
+                            </div>
+                            <div class="spec-number">
+                                <div class="number accent">12+</div>
+                                <div class="label">Элементов на поле</div>
+                            </div>
+                        </div>
+                        <p>Игровое поле представляет собой круглую арену с бортами, внутри которой расположены различные элементы для выполнения заданий и препятствия для тестирования навыков управления.</p>
+                        <div class="field-image">
+                            <img src="assets/image_1746125556563.png" alt="Схема игрового поля">
+                        </div>
+                    </div>
+
+                    <div class="field-elements">
+                        <h3>Элементы поля</h3>
+                        <ul class="element-list">
+                            <li>
+                                <div class="element-icon primary">
+                                    <i data-feather="target"></i>
+                                </div>
+                                <span>Ворота для забивания мяча</span>
+                            </li>
+                            <li>
+                                <div class="element-icon accent">
+                                    <i data-feather="triangle"></i>
+                                </div>
+                                <span>Трамплины и препятствия различной формы</span>
+                            </li>
+                            <li>
+                                <div class="element-icon secondary">
+                                    <i data-feather="layers"></i>
+                                </div>
+                                <span>Туннели для проезда роботов</span>
+                            </li>
+                            <li>
+                                <div class="element-icon green">
+                                    <i data-feather="octagon"></i>
+                                </div>
+                                <span>Заборы и ограждения для манёвров</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="field-details">
+                    <div class="field-photo">
+                        <img src="assets/image_1746125539174.png" alt="Игровое поле во время соревнований">
+                        <div class="photo-caption">
+                            <h4>Игровое поле в действии</h4>
+                            <p>Фотография с проведения соревнований Робобол</p>
+                        </div>
+                    </div>
+                    
+                    <div class="rules">
+                        <h3>Правила игры</h3>
+                        <div class="rules-list">
+                            <div class="rule">
+                                <div class="rule-number">1</div>
+                                <p>Игроки делятся на 2 команды по 3 человека</p>
+                            </div>
+                            <div class="rule">
+                                <div class="rule-number">2</div>
+                                <p>Каждому участнику выдается стандартная робот-машинка и джойстик</p>
+                            </div>
+                            <div class="rule">
+                                <div class="rule-number">3</div>
+                                <p>Задача — забить мяч в ворота противника</p>
+                            </div>
+                            <div class="rule">
+                                <div class="rule-number">4</div>
+                                <p>Игроки маневрируют на поле с различными препятствиями</p>
+                            </div>
+                            <div class="rule">
+                                <div class="rule-number">5</div>
+                                <p>Полученные очки можно обменять на модификации для машинки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Галерея проекта</h2>
+                <div class="separator"></div>
+                <p>Фотографии и видео с соревнований и процесса разработки</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-type="image" data-src="assets/image_1746125539174.png">
+                    <img src="assets/image_1746125539174.png" alt="Соревнования Робобол">
+                    <div class="gallery-caption">
+                        <h3>Прототип арены</h3>
+                        <p>Тест препятствий на арене</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-type="image" data-src="assets/процесс.jpg">
+                    <img src="assets/процесс.jpg" alt="Процесс сборки">
+                    <div class="gallery-caption">
+                        <h3>Процесс сборки</h3>
+                        <p>Сборка арены</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-type="image" data-src="assets/маш.jpg">
+                    <img src="assets/маш.jpg" alt="Игровая машинка">
+                    <div class="gallery-caption">
+                        <h3>Игровая машинка</h3>
+                        <p>Разработка проекта Робобол</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-button">
+                <button class="btn btn-secondary">
+                    <i data-feather="image"></i> Показать больше
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для галереи -->
+    <div class="modal" id="gallery-modal">
+        <div class="modal-content">
+            <button class="modal-close">
+                <i data-feather="x"></i>
+            </button>
+            <div class="modal-body">
+                <div class="image-container">
+                    <!-- Здесь будет отображаться изображение или видео -->
+                </div>
+                <h3 class="modal-title"></h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Участники проекта -->
+    <section id="team" class="team section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Команда проекта</h2>
+                <div class="separator"></div>
+                <p>Участники разработки проекта "Робобол"</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-members">
+                    <ul class="members-list">
+                        <li>Кретинина Татьяна</li>
+                        <li>Шабалин Даниил</li>
+                        <li>Косяченко Никита</li>
+                        <li>Кисурина Варвара</li>
+                        <li>Редькина Алина</li>
+                        <li>Денисова Екатерина</li>
+                        <li>Фролова Анастасия</li>
+                        <li>Беляев Владимир</li>
+                    </ul>
+                </div>
+                <div class="team-members">
+                    <ul class="members-list">
+                        <li>Соколова Варвара</li>
+                        <li>Петров Иван</li>
+                        <li>Яковлев Александр</li>
+                        <li>Богоявленская Любовь</li>
+                        <li>Чиканчи Дарья</li>
+                        <li>Сатира Гимхан</li>
+                        <li>Кондратенко Дмитрий</li>
+                        <li>Мэн Сянлинь</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-text">Робобол</div>
+                    <p>Группа проектов Робостанции</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <nav>
+                        <a href="#main">Главная</a>
+                        <a href="#about">О проекте</a>
+                        <a href="#machine">Игровая машинка</a>
+                        <a href="#field">Игровое поле</a>
+                        <a href="#gallery">Галерея</a>
+                        <a href="#team">Команда</a>
+                    </nav>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i data-feather="mail"></i> info@roboball.ru</p>
+                    <p><i data-feather="phone"></i> +7 (123) 456-78-90</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i data-feather="facebook"></i></a>
+                        <a href="#" class="social-link"><i data-feather="instagram"></i></a>
+                        <a href="#" class="social-link"><i data-feather="youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Робобол</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
