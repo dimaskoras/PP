@@ -12,12 +12,18 @@
 ### Связь с проектом
 Знания, полученные на карьерном марафоне, прямо связаны с моим текущим проектом **"Робобол"** — сайт для инновационной физической игры с образовательными элементами. Обсуждения о новых технологиях в программировании и образовании, особенно в контексте создания интерактивных и образовательных платформ, помогли мне расширить кругозор и лучше понять текущие тренды в области детского образования через игровые технологии.
 ## Фото с мероприятия
-<img src="media/photo_1.jpg" alt="pic">
-<img src="media/photo_2.jpg" alt="pic">
-<img src="media/photo_3.jpg" alt="pic">
-<img src="media/photo_4.jpg" alt="pic">
-<img src="media/photo_5.jpg" alt="pic">
-<img src="media/photo_6.jpg" alt="pic">
+<table>
+  <tr>
+    <td><img src="media/photo_1.jpg" alt="pic" width="200"></td>
+    <td><img src="media/photo_2.jpg" alt="pic" width="200"></td>
+    <td><img src="media/photo_3.jpg" alt="pic" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="media/photo_4.jpg" alt="pic" width="200"></td>
+    <td><img src="media/photo_5.jpg" alt="pic" width="200"></td>
+    <td><img src="media/photo_6.jpg" alt="pic" width="200"></td>
+  </tr>
+</table>
 
 ## Заключение
 Посещение карьерного марафона в Московском Политехе было полезным и вдохновляющим опытом. Я получил новые знания и идеи, которые будут способствовать развитию моей карьеры в будущем.
