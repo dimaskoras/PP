@@ -50,7 +50,4 @@ ADMIN_ID=ваш_tg_id
 
 ## 🎥 Демонстрация
 
-<video controls width="600">
-  <source src="rec.mp4" type="video/mp4">
-  Ваш браузер не поддерживает видео.
-</video>
+<img src="rec.gif" alt="GIF" width="600">
