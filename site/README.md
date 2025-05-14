@@ -26,8 +26,8 @@
 ├── css/              
 │   └── styles.css     # Стили сайта
 ├── assets/            # Медиафайлы
-│   ├── images/        # Изображения
-│   └── video/         # Видеоматериалы
+│   ├── image.jpg        # Изображения
+│   └── video.mp4        # Видеоматериалы
 └── script.js          # JavaScript функционал
 ```
 
@@ -36,7 +36,7 @@
 ## 🛠 Технологии
 
 - **HTML5**
-- **CSS3** *(с использованием CSS-переменных)*
+- **CSS**
 - **JavaScript**
 - **Feather Icons** *(иконки)*
 - **Google Fonts** *(Montserrat, Roboto)*
